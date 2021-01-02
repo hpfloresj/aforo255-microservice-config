@@ -4,7 +4,7 @@ logging:
     
 spring:
   rabbitmq:
-    host: ${RABBITMQ_HOST}
-    port: ${RABBITMQ_PORT}
-    username: ${RABBITMQ_USERNAME}
-    password: ${RABBITMQ_PASSWORD}
+    host: localhost
+    port: 5672
+    username: admin
+    password: 1234
