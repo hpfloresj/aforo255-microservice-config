@@ -1,0 +1,10 @@
+logging:
+  level:
+    org.springframework.security: INFO
+    
+spring:
+  rabbitmq:
+    host: ${RABBITMQ_HOST}
+    port: ${RABBITMQ_PORT}
+    username: ${RABBITMQ_USERNAME}
+    password: ${RABBITMQ_PASSWORD}
